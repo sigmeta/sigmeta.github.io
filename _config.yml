@@ -30,8 +30,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sigmeta
-subtitle: Hao Sun's site
+title: Hao Sun
+subtitle: Machine Learning, NLP, TTS
 description: >- # this means to ignore newlines until "baseurl:"
   This is the site of Hao Sun.
 author: sigmeta
@@ -48,8 +48,8 @@ twitter_url:
 facebook_url:
 googleplus_url:
 instagram_url:
-linkedin_url:
-github_url:
+linkedin_url: "https://www.linkedin.com/in/%E8%B1%AA-%E5%AD%99-0694aa141/"
+github_url: "https://github.com/sigmeta"
 pinterest_url:
 slack_url:
 dribbble_url:
