@@ -11,6 +11,14 @@ layout: default
 			<header>
 				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+				{% for category in site.categories %}
+					<h3>{{ category[0] }}</h3>
+					<ul>
+						{% for post in category[1] %}
+							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+					</ul>
+				{% endfor %}
 			</header>
 	    {{- content -}}
 	  </div>
