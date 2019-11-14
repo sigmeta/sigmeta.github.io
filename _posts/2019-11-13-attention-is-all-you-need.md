@@ -1,9 +1,11 @@
 ---
-title: Attention Is All You Need
-author: sigmeta
 layout: post
-categories: [ML, paper]
-tags: [NLP, paper, Transformer]
+title: Attention is all you need 论文笔记
+author: sigmeta
+date: '2019-11-13 14:35:23 +0530'
+category: paper
+summary: 本文主要讲述Self-Attention机制+Transformer模型。自己看过论文与其他人文章的总结，不是对论文的完整翻译。
+thumbnail: hello.jpg
 ---
 
 # Attention Is All You Need 论文笔记
@@ -115,6 +117,3 @@ $$FFN(x)=\max(0,XW_1+b_1)W_2+b_2$$
 2. [Attention Is All You Need 翻译](https://www.yiyibooks.cn/yiyibooks/Attention_Is_All_You_Need/index.html)
 3. [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 4. [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-
-
-

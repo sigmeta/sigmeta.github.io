@@ -1,26 +1,24 @@
 ---
 layout: default
 ---
-{%- include header.html -%}
 
-<!-- Main -->
-<div id="main">
-	<!-- Post -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-				{% for category in site.categories %}
-					<h3>{{ category[0] }}</h3>
-					<ul>
-						{% for post in category[1] %}
-							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
-				{% endfor %}
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+<!-- Blog Post Breadcrumbs -->
+{%- include blog_post_breadcrumb.html -%}
+
+<div class="row">
+
+        <div class="col-lg-8">
+    
+           {%- include blog_post_article.html -%}
+
+           {%- include blog_post_comments.html -%}
+        </div>
+ 
+           {%- include blog_sidebar.html -%}
+
+
+        
+</div> <!-- End of row-->
+    
+
+    

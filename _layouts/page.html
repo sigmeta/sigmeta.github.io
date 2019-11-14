@@ -1,18 +1,9 @@
+--- 
+layout: default 
 ---
-layout: default
----
-{%- include header.html -%}
 
-<!-- Main -->
-<div id="main">
-	<!-- Page -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+    <div class="card">
+        <div class="col-md-8 offset-md-2 offset-md-right">
+        {{ content }}
+         </div>
+    </div>
