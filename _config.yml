@@ -10,11 +10,11 @@ urls:
     - text: Blog
       url: /blog
     - text: About Me
-      url: /about/
+      url: /about.html
     - text: Contact Me
-      url : /contact/
+      url : /contact.html
     - text: Styleguide
-      url: /styleguide/
+      url: /styleguide.html
     
 
 # Edit these details 
