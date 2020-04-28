@@ -31,13 +31,13 @@ author_work_experiences:
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Bing SDE
-              description: NLP
+              description: 2020.7 - 
               visibility: true
             - company_name: Microsoft MSRA
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Research Intern
-              description: NLP, TTS
+              description: NLP, TTS.  2019.1 - 2019.11
               visibility: true
 
 author_education_details:
@@ -46,6 +46,7 @@ author_education_details:
                 college_url: https://www.pku.edu.cn
                 college_degree: Software Engineering
                 description: Master of Technology
+                time: 2020
                 visibility: true
               - college_logo: tju.jpg
                 college_name: Tianjin University
@@ -69,8 +70,8 @@ author_project_details:
 # social links
 github_username:  sigmeta
 linkedin_username: 豪-孙-0694aa141
-twitter_username: /
-facebook_username: /
+twitter_username: sigmeta32
+facebook_username: 100017319468619
 behance_username: /
 instagram_username: /
 medium_username: /
